@@ -1,4 +1,4 @@
-package main
+package draws
 
 import (
 	"gioui.org/app"
@@ -10,7 +10,7 @@ import (
 	"os"
 )
 
-func draw(w *app.Window) error {
+func Draw(w *app.Window) error {
 
 	// ops are the operations from the UI
 	var ops op.Ops

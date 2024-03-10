@@ -1,6 +1,6 @@
 module github.com/arinashin3/zabbix-advisor
 
-go 1.21
+go 1.21.4
 
 require gioui.org v0.5.0
 
