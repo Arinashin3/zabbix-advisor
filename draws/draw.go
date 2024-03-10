@@ -1,5 +1,14 @@
 package draws
 
+import (
+	"gioui.org/app"
+	"gioui.org/layout"
+	"gioui.org/op"
+	"gioui.org/widget"
+	"gioui.org/widget/material"
+	"os"
+)
+
 func draw(w *app.Window) error {
 
 	// ops are the operations from the UI
