@@ -1,4 +1,4 @@
-package main
+package draws
 
 import (
 	"gioui.org/app"
