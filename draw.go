@@ -26,6 +26,7 @@ func draw(w *app.Window) error {
 		evt := w.NextEvent()
 
 		// then detect the type
+		// ghjgj
 		switch typ := evt.(type) {
 		case app.FrameEvent:
 			gtx := app.NewContext(&ops, typ)
