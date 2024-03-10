@@ -1,4 +1,4 @@
-package draws
+package main
 
 import (
 	"gioui.org/app"
@@ -10,7 +10,7 @@ import (
 	"os"
 )
 
-func draw(w *app.Window) int {
+func draw(w *app.Window) error {
 
 	// ops are the operations from the UI
 	var ops op.Ops
@@ -61,7 +61,7 @@ func draw(w *app.Window) int {
 			os.Exit(0)
 
 		}
-
+		
 	}
-	return 0
+	return nil
 }
