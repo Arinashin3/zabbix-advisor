@@ -10,7 +10,7 @@ import (
 	"os"
 )
 
-func draw(w *app.Window) error {
+func draw(w *app.Window) int {
 
 	// ops are the operations from the UI
 	var ops op.Ops
@@ -63,4 +63,5 @@ func draw(w *app.Window) error {
 		}
 
 	}
+	return 0
 }
